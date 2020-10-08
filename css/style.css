@@ -110,3 +110,12 @@ body {
   justify-content: space-between;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+}
